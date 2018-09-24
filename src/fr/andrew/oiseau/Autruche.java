@@ -12,10 +12,5 @@ public class Autruche extends Oiseau{
 		super(nom, taille, poids, race, plumes);
 		// TODO Auto-generated constructor stub
 	}
-	
-	@Override
-	public void voler() {
-		System.out.println("Je suis une autruche je ne vole pas");
-	}
 
 }

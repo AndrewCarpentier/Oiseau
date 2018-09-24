@@ -31,10 +31,6 @@ public class Oiseau {
 		System.out.println(nom+ " bois");
 	}
 	
-	public void voler() {
-		System.out.println(nom+ " vole");
-	}
-	
 	public void jouer() {
 		System.out.println(nom+ " joue");
 	}
@@ -94,5 +90,6 @@ public class Oiseau {
 	public void courrir() {
 		// TODO Auto-generated method stub
 		
-	}	
+	}
+
 }

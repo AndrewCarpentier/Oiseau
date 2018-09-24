@@ -1,6 +1,6 @@
 package fr.andrew.oiseau;
 
-public class Aigle extends Oiseau{
+public class Aigle extends Oiseau implements OiseauVolant{
 	
 	public Aigle() {
 		super();
@@ -20,6 +20,11 @@ public class Aigle extends Oiseau{
 	@Override
 	public void courir() {
 		System.out.println("Je suis un aigle je ne cour pas je vole");
+	}
+
+	@Override
+	public void voler() {
+		System.out.println(nom+ "vole");
 	}
 	
 }

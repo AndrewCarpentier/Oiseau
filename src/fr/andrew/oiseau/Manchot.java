@@ -1,6 +1,6 @@
 package fr.andrew.oiseau;
 
-public class Manchot extends Oiseau{
+public class Manchot extends Oiseau implements OiseauNageur{
 	
 	public Manchot() {
 		super();
@@ -19,11 +19,6 @@ public class Manchot extends Oiseau{
 	
 	public void glisser() {
 		System.out.println(nom+ " glisse");
-	}
-	
-	@Override
-	public void voler() {
-		System.out.println("Je suis un manchot je ne vole pas");
 	}
 	
 }
