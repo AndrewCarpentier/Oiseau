@@ -16,4 +16,10 @@ public class Aigle extends Oiseau{
 	public void chasser(String nomAnimal) {
 		System.out.println(nom+ " chasse un " +nomAnimal);
 	}
+	
+	@Override
+	public void courir() {
+		System.out.println("Je suis un aigle je ne cour pas je vole");
+	}
+	
 }

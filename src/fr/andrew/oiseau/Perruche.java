@@ -11,5 +11,6 @@ public class Perruche extends Oiseau{
 		super(nom, taille, poids, race, plumes);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	
 }

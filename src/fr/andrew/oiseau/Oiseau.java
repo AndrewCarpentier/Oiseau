@@ -51,7 +51,6 @@ public class Oiseau {
 	//Getter Setter
 
 	public String getNom() {
-		System.out.print("L'animal se nomme ");
 		return nom;
 	}
 
@@ -60,7 +59,6 @@ public class Oiseau {
 	}
 
 	public int getTaille() {
-		System.out.print("L'animal mesure ");
 		return taille;
 	}
 
@@ -69,7 +67,6 @@ public class Oiseau {
 	}
 
 	public double getPoids() {
-		System.out.print("L'animal pese ");
 		return poids;
 	}
 
@@ -78,7 +75,6 @@ public class Oiseau {
 	}
 
 	public String getRace() {
-		System.out.print("La race de l'animal est ");
 		return race;
 	}
 
@@ -86,15 +82,17 @@ public class Oiseau {
 		this.race = race;
 	}
 
-	public void isPlumes() {
-		if (plumes) {
-			System.out.println(nom+ " à des plumes");
-		}else {
-			System.out.println(nom+ " n'a pas de plumes");			
-		}				
+	public boolean isPlumes() {
+		return plumes;
+				
 	}
 
 	public void setPlumes(boolean plumes) {
 		this.plumes = plumes;
+	}
+
+	public void courrir() {
+		// TODO Auto-generated method stub
+		
 	}	
 }

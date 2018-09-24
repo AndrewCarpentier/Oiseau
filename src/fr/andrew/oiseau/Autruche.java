@@ -17,5 +17,5 @@ public class Autruche extends Oiseau{
 	public void voler() {
 		System.out.println("Je suis une autruche je ne vole pas");
 	}
-	
+
 }

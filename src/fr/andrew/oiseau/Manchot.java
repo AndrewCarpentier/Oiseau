@@ -17,8 +17,13 @@ public class Manchot extends Oiseau{
 		System.out.println(nom+ " nage");
 	}
 	
+	public void glisser() {
+		System.out.println(nom+ " glisse");
+	}
+	
 	@Override
 	public void voler() {
 		System.out.println("Je suis un manchot je ne vole pas");
 	}
+	
 }
